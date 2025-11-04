@@ -43,15 +43,15 @@ window.onload = set_page_view_defaults;
 
 We've been able to do a lot of work with files that already exist, but what if we want to write our own files? We're not going to type in a FASTA file, but we'll see as we go through other tutorials, there are a lot of reasons we'll want to write a file, or edit an existing file.
 
-To add text to files, we're going to use a text editor called Nano. We're going to create a file to take notes about what we've been doing with the data files in `~/obss_2024/commandline/shell_data/untrimmed_fastq`.
+To add text to files, we're going to use a text editor called Nano. We're going to create a file to take notes about what we've been doing with the data files in `~/obss_2025/commandline/shell_data/untrimmed_fastq`.
 
 This is good practice when working in bioinformatics. We can create a file called `README.txt` that describes the data files in the directory or documents how the files in that directory were generated. As the name suggests, it's a file that we or others should read to understand the information in that directory.
 
-Let's change our working directory to `~/obss_2024/commandline/shell_data/untrimmed_fastq` using `cd`,
+Let's change our working directory to `~/obss_2025/commandline/shell_data/untrimmed_fastq` using `cd`,
 then run `nano` to create a file called `README.txt`:
 
 ```bash
-$ cd ~/obss_2024/commandline/shell_data/untrimmed_fastq
+$ cd ~/obss_2025/commandline/shell_data/untrimmed_fastq
 $ nano README.txt
 ```
 
@@ -131,7 +131,7 @@ Open `README.txt` and add the date to the top of the file and save the file.
 
 ## Solution
 
-Use `nano README.txt` to open the file.  
+Use `nano README.txt` to open the file.
 Add today's date and then use <kbd>Ctrl</kbd>\-<kbd>X</kbd> followed by `y` and <kbd>Enter</kbd> to save.
 
 :::::::::::::::::::::::::
@@ -320,9 +320,9 @@ command line belongs to. So, if you are logged into AWS on the command line and 
 the `curl` command above in the AWS terminal, the file will be downloaded to your AWS
 machine, not your local one.
 
-### Moving files between your laptop and NeSI with Jupyterhub
+### Moving files between your laptop and the REANNZ HPC with Jupyterhub
 
-With Jupyterhub on NeSI, one of the easiest way to move small-medium sized files is to use the upload option on the file explorer panel
+With Jupyterhub on the REANNZ HPC, one of the easiest way to move small-medium sized files is to use the upload option on the file explorer panel
 
 ![](fig/nesi_images/upload.png)
 

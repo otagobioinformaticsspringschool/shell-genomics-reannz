@@ -35,7 +35,7 @@ have two results files, which are stored in our `untrimmed_fastq` directory.
 Navigate to your `untrimmed_fastq` directory:
 
 ```bash
-$ cd ~/obss_2024/commandline/shell_data/untrimmed_fastq
+$ cd ~/obss_2025/commandline/shell_data/untrimmed_fastq
 ```
 
 We are interested in looking at the FASTQ files in this directory. We can list
@@ -104,7 +104,7 @@ what you need to solve the bonus problem.
 
 1. `ls /usr/bin/c*`
 2. `ls /usr/bin/*a*`
-3. `ls /usr/bin/*o`  
+3. `ls /usr/bin/*o`
    Bonus: `ls /usr/bin/*[ac]*`
 
 :::::::::::::::::::::::::
@@ -236,17 +236,17 @@ This will print out all of the contents of the `SRR098026.fastq` to the screen.
 
 ## Exercise
 
-1. Print out the contents of the `~/obss_2024/commandline/shell_data/untrimmed_fastq/SRR097977.fastq` file. What is the last line of the file?
+1. Print out the contents of the `~/obss_2025/commandline/shell_data/untrimmed_fastq/SRR097977.fastq` file. What is the last line of the file?
 2. From your home directory, and without changing directories,
    use one short command to print the contents of all of the files in
-   the `~/obss_2024/commandline/shell_data/untrimmed_fastq` directory.
+   the `~/obss_2025/commandline/shell_data/untrimmed_fastq` directory.
 
 ::::::::::::::: solution
 
 ## Solution
 
 1. The last line of the file is `C:CCC::CCCCCCCC<8?6A:C28C<608'&&&,'$`.
-2. `cat ~/obss_2024/commandline/shell_data/untrimmed_fastq/*`
+2. `cat ~/obss_2025/commandline/shell_data/untrimmed_fastq/*`
 
 :::::::::::::::::::::::::
 
@@ -418,7 +418,7 @@ and change the file permissions so that we can read from, but not write to, the 
 
 First, let's make a copy of one of our FASTQ files using the `cp` command.
 
-Navigate to the `~/obss_2024/commandline/shell_data/untrimmed_fastq` directory and enter:
+Navigate to the `~/obss_2025/commandline/shell_data/untrimmed_fastq` directory and enter:
 
 ```bash
 $ cp SRR098026.fastq SRR098026-copy.fastq
@@ -545,7 +545,7 @@ you will be asked whether you want to override your permission settings.
 
 ## Exercise
 
-Starting in the `~/obss_2024/commandline/shell_data/untrimmed_fastq/` directory, do the following:
+Starting in the `~/obss_2025/commandline/shell_data/untrimmed_fastq/` directory, do the following:
 
 1. Make sure that you have deleted your backup directory and all files it contains.
 2. Create a backup of each of your FASTQ files using `cp`. (Note: You'll need to do this individually for each of the two FASTQ files. We haven't
@@ -561,7 +561,7 @@ Starting in the `~/obss_2024/commandline/shell_data/untrimmed_fastq/` directory,
 1. `rm -r backup`
 2. `cp SRR098026.fastq SRR098026-backup.fastq` and `cp SRR097977.fastq SRR097977-backup.fastq`
 3. `mkdir backup` and `mv *-backup.fastq backup`
-4. `chmod -w backup/*-backup.fastq`  
+4. `chmod -w backup/*-backup.fastq`
    It's always a good idea to check your work with `ls -l backup`. You should see something like:
 
 ```output

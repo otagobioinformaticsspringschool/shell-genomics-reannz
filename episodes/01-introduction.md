@@ -22,7 +22,7 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**This lesson has been adapted from the original [Data Carpentry - Shell Genomics](https://datacarpentry.org/shell-genomics/) to be run using the NeSI infrastructure as part of the Otago Bioinformatics Spring School instead of AWS.**
+**This lesson has been adapted from the original [Data Carpentry - Shell Genomics](https://datacarpentry.org/shell-genomics/) to be run using the the REANNZ HPC infrastructure as part of the Otago Bioinformatics Spring School instead of AWS.**
 
 ## What is a shell and why should I care?
 
@@ -67,15 +67,15 @@ would take up time even more time. A 'ready-to-go' server lets us focus on learn
 
 ## How to access the remote server
 
-During this workshop we will be running the material on the NeSI platform, using the Jupyter interface, however it is
+During this workshop we will be running the material on the the REANNZ HPC platform, using the Jupyter interface, however it is
 also possible to run this material locally on your own machine.
 
-One of the differences between running on NeSI or your own machine is that on NeSI we preinstall popular software and make it available to our users, whereas on your own machine you need to install the software yourself (e.g. using a package manager such as conda).
+One of the differences between running on the REANNZ HPC or your own machine is that on the REANNZ HPC we preinstall popular software and make it available to our users, whereas on your own machine you need to install the software yourself (e.g. using a package manager such as conda).
 
-### Connect to Jupyter on NeSI
+### Connect to Jupyter on the REANNZ HPC
 
-1. Connect to [https://jupyter.nesi.org.nz](https://jupyter.nesi.org.nz)
-2. <p>Enter NeSI username, HPC password and 6 digit second factor token (as set on <a href="https://my.nesi.org.nz/account/hpc-account">MyNeSI</a>)<br>![image](fig/nesi_images/Login_jupyterhubNeSI.png)</p>
+1. Connect to [https://ondemand.nesi.org.nz](https://ondemand.nesi.org.nz)
+2. Log in with your institution credentials through Tuakeri
 3. <p>Choose server options as below
    <br>make sure to choose the correct project code `nesi02659`, number of CPUs **4**, memory **4GB** prior to pressing the Start button.
 
@@ -198,7 +198,7 @@ the directory that the computer assumes we want to run commands in,
 unless we explicitly specify something else.
 Here,
 the computer's response is `/home/<username>`,
-which is the top level directory within NeSI:
+which is the top level directory within the REANNZ HPC:
 
 ```bash
 $ pwd
@@ -216,7 +216,7 @@ $ ls
 ```
 
 ```output
-obss_2024
+obss_2025
 ```
 
 `ls` prints the names of the files and directories in the current directory in
@@ -228,11 +228,11 @@ The command to change locations in our file system is `cd`, followed by a
 directory name to change our working directory.
 `cd` stands for "change directory".
 
-Let's say we want to navigate to the `obss_2024/commandline/shell_data` directory we saw above. We can
+Let's say we want to navigate to the `obss_2025/commandline/shell_data` directory we saw above. We can
 use the following command to get there:
 
 ```bash
-$ cd obss_2024
+$ cd obss_2025
 ```
 
 Let's look at what is in this directory:
@@ -370,7 +370,7 @@ $ cd
 then enter:
 
 ```bash
-$ cd obss_2024/com<tab>/she<tab>_<tab>
+$ cd obss_2025/com<tab>/she<tab>_<tab>
 ```
 
 The shell will fill in the rest of the directory name for `commandline` and then `shell_data`.

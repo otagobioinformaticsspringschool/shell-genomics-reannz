@@ -12,7 +12,7 @@
 carpentry: "dc"
 
 # Overall title for pages.
-title: "Introduction to the Command Line for Genomics (modified for NeSI)"
+title: "Introduction to the Command Line for Genomics (modified for REANNZ)"
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: "2015-03-24"
@@ -28,7 +28,7 @@ life_cycle: "stable"
 license: "CC-BY 4.0"
 
 # Link to the source repository for this lesson
-source: "https://github.com/otagobioinformaticsspringschool/shell-genomics-nesi"
+source: "https://github.com/otagobioinformaticsspringschool/shell-genomics-reannz"
 
 # Default branch of your lesson
 branch: "main"
@@ -81,6 +81,6 @@ profiles:
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
-url: "https://otagobioinformaticsspringschool.github.io/shell-genomics-nesi"
+url: "https://otagobioinformaticsspringschool.github.io/shell-genomics-reannz"
 analytics: carpentries
 lang: en

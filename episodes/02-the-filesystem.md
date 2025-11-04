@@ -33,7 +33,7 @@ you're not already there.
 
 ```bash
 $ cd
-$ cd ~/obss_2024/commandline/shell_data
+$ cd ~/obss_2025/commandline/shell_data
 $ cd untrimmed_fastq
 ```
 
@@ -66,7 +66,7 @@ $ pwd
 ```
 
 ```output
-/home/<username>/obss_2024/commandline/shell_data
+/home/<username>/obss_2025/commandline/shell_data
 ```
 
 ```bash
@@ -85,7 +85,7 @@ You can chain these together like so:
 $ ls ../../
 ```
 
-prints the contents of `/home/<username>/obss_2024`.
+prints the contents of `/home/<username>/obss_2025`.
 
 ::::::::::::::::::::::::::::::::::::::: challenge
 
@@ -163,7 +163,7 @@ $ cd
 Then enter the command:
 
 ```bash
-$ ls ~/obss_2024/commandline/shell_data
+$ ls ~/obss_2025/commandline/shell_data
 ```
 
 ```output
@@ -179,7 +179,7 @@ Try entering:
 
 ```bash
 $ cd
-$ cd ~/obss_2024/commandline/shell_data/untrimmed_fastq
+$ cd ~/obss_2025/commandline/shell_data/untrimmed_fastq
 ```
 
 This will take you to the `untrimmed_fastq` directory without having to go through
@@ -198,7 +198,7 @@ directory.
 
 ```bash
 $ cd
-$ ls ~/obss_2024/commandline/shell_data/untrimmed_fastq/
+$ ls ~/obss_2025/commandline/shell_data/untrimmed_fastq/
 ```
 
 ```output
@@ -240,7 +240,7 @@ directory in `home` which is a directory in `/`. More on `root` and
 Now enter the following command:
 
 ```bash
-$ cd /home/<username>/obss_2024/commandline/shell_data/.hidden
+$ cd /home/<username>/obss_2025/commandline/shell_data/.hidden
 ```
 
 This jumps forward multiple levels to the `.hidden` directory.
@@ -253,7 +253,7 @@ $ cd
 You can also navigate to the `.hidden` directory using:
 
 ```bash
-$ cd obss_2024/commandline/shell_data/.hidden
+$ cd obss_2025/commandline/shell_data/.hidden
 ```
 
 These two commands have the same effect, they both take us to the `.hidden` directory.
@@ -325,7 +325,7 @@ In our case, the `root` directory is **two** levels above our
 
 ```bash
 $ cd
-$ cd ~/obss_2024/commandline/shell_data
+$ cd ~/obss_2025/commandline/shell_data
 ```
 
 Then enter the command:
@@ -335,7 +335,7 @@ $ ls ~
 ```
 
 ```output
-obss_2024
+obss_2025
 ```
 
 This prints the contents of your home directory, without you needing to

@@ -1,4 +1,4 @@
-This workshop has been modified to be run on NeSI
+This workshop has been modified to be run on the REANNZ HPC
 
 The original workshop details are below
 

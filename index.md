@@ -21,8 +21,8 @@ However, learners are expected to have some familiarity with biological concepts
 including the
 concept of genomic variation within a population. Participants should bring their laptops and plan to participate actively.
 
-This lesson uses data hosted on NeSI. Workshop participants will be given information on how
-to log-in to NeSI during the workshop. Learners using these materials for self-directed study will need to set up their own
+This lesson uses data hosted on the REANNZ HPC. Workshop participants will be given information on how
+to log-in to the REANNZ HPC during the workshop. Learners using these materials for self-directed study will need to set up their own
 AMI. Information on setting up an AMI and accessing the required data is provided on the original [Genomics Workshop setup page](https://www.datacarpentry.org/genomics-workshop/setup.html).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
