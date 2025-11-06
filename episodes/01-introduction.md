@@ -85,7 +85,7 @@ One of the differences between running on the REANNZ HPC or your own machine is 
 4. Choose server options as below
    <br>make sure to choose the correct project code `nesi02659`, number of CPUs **4**, memory **4GB** prior to pressing the Start button.
 
-<br>![OnDemand Jupyter Session specs](fig/nesi_images/reannz_jupyter_spec.png){width="700"}
+<br>![OnDemand Jupyter Session specs](fig/nesi_images/reannz_jupyter_spec.png){width="700px"}
 
 5. <p>Start a terminal session from the JupyterLab launcher<br>![Jupyter Launcher](fig/nesi_images/reannz_jupyter_launcher.png){width="500"}
 
