@@ -361,7 +361,7 @@
         
 <section id="aio-01-introduction"><p>Content from <a href="01-introduction.html">Introducing the Shell</a></p>
 <hr>
-<p>Last updated on 2025-11-05 |
+<p>Last updated on 2025-11-06 |
 
         <a href="https://github.com/otagobioinformaticsspringschool/shell-genomics-reannz/edit/main/episodes/01-introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -473,16 +473,19 @@ conda).</p>
 <ol style="list-style-type: decimal">
 <li>Connect to <a href="https://ondemand.nesi.org.nz" class="external-link">https://ondemand.nesi.org.nz</a>
 </li>
-<li>Log in with your institution credentials through Tuakeri</li>
-<li><p>
-Choose server options as below <br>make sure to choose the correct
-project code <code>nesi02659</code>, number of CPUs <strong>4</strong>,
-memory <strong>4GB</strong> prior to pressing the Start button.</p></li>
+<li>Log in with your institution credentials through Tuakiri</li>
 </ol>
-<p><br><img src="fig/nesi_images/ServerOptions_jupyterhubNeSI.png" width="700" alt="image" class="figure"></p>
-<ol start="4" style="list-style-type: decimal">
+<br><img src="fig/nesi_images/reannz_tuakiri.png" width="700" alt="Tuakiri login" class="figure"> 3. Select the Jupyter Lab launcher from the
+onDemand dashboard <br><img src="fig/nesi_images/reannz_ondemand_dashboard.png" width="700" alt="OnDemand Dashboard" class="figure"> 4.
+<p>
+</p>
+<p>Choose server options as below <br>make sure to choose the correct
+project code <code>nesi02659</code>, number of CPUs <strong>4</strong>,
+memory <strong>4GB</strong> prior to pressing the Start button.</p>
+<p><br><img src="fig/nesi_images/reannz_jupyter_spec.png" width="700" alt="OnDemand Jupyter Session specs" class="figure"></p>
+<ol start="5" style="list-style-type: decimal">
 <li><p>
-Start a terminal session from the JupyterLab launcher<br><img src="fig/nesi_images/ga-vl01jupyterhubNeSI.png" width="500" alt="image" class="figure"></p></li>
+Start a terminal session from the JupyterLab launcher<br><img src="fig/nesi_images/reannz_jupyter_launcher.png" width="500" alt="Jupyter Launcher" class="figure"></p></li>
 </ol>
 <div id="callout1" class="callout">
 <div class="callout-square">
@@ -750,7 +753,7 @@ don’t see with the bare <code>ls</code> command?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb20">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1463,7 +1466,7 @@ wildcards to find what you need to solve the bonus problem.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><code>ls /usr/bin/c*</code></li>
@@ -1515,7 +1518,7 @@ matched? Compare the outputs of <code>echo *.missing</code> and
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1607,7 +1610,7 @@ the .sh files in <code>/usr/bin</code>. Rerun that command.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>First type <code>history</code>. Then use <code>!</code> followed by
 the line number to rerun that command.</p>
@@ -1657,7 +1660,7 @@ directory.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>The last line of the file is
@@ -1746,7 +1749,7 @@ instance of the sequence quoted above?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> Show me the solution </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <p><code>CAC</code></p>
 </div>
@@ -2081,7 +2084,7 @@ write-protected.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6"> Show me the solution </h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><code>rm -r backup</code></li>
@@ -3152,7 +3155,7 @@ and save the file.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Use <code>nano README.txt</code> to open the file. Add today’s date
 and then use <kbd>Ctrl</kbd>-<kbd>X</kbd> followed by <code>y</code> and
@@ -3245,7 +3248,7 @@ and save the file.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <pre><code>$ bash bad-reads-script.sh
 Script finished!</code></pre>
@@ -3727,7 +3730,7 @@ directories:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -3838,7 +3841,7 @@ two-digit month, and two digit day, e.g.
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb8">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -4061,8 +4064,8 @@ project. Your future self will thank you!</li>
   "url": "https://otagobioinformaticsspringschool.github.io/shell-genomics-reannz/aio.html",
   "identifier": "https://otagobioinformaticsspringschool.github.io/shell-genomics-reannz/aio.html",
   "dateCreated": "2015-03-24",
-  "dateModified": "2025-11-05",
-  "datePublished": "2025-11-05"
+  "dateModified": "2025-11-06",
+  "datePublished": "2025-11-06"
 }
 
   </script><script>
