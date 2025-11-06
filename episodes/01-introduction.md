@@ -75,13 +75,17 @@ One of the differences between running on the REANNZ HPC or your own machine is 
 ### Connect to Jupyter on the REANNZ HPC
 
 1. Connect to [https://ondemand.nesi.org.nz](https://ondemand.nesi.org.nz)
-2. Log in with your institution credentials through Tuakeri
-3. <p>Choose server options as below
+2. Log in with your institution credentials through Tuakiri
+
+<br>![Tuakiri login](fig/nesi_images/reannz_tuakiri.png){width="700px"}
+3. Select the Jupyter Lab launcher from the onDemand dashboard
+   <br>![OnDemand Dashboard](fig/nesi_images/reannz_ondemand_dashboard.png){width="700px"}
+4. <p> Choose server options as below
    <br>make sure to choose the correct project code `nesi02659`, number of CPUs **4**, memory **4GB** prior to pressing the Start button.
 
-<br>![image](fig/nesi_images/ServerOptions_jupyterhubNeSI.png){width="700"}
+<br>![OnDemand Jupyter Session specs](fig/nesi_images/reannz_jupyter_spec.png){width="700"}
 
-4. <p>Start a terminal session from the JupyterLab launcher<br>![image](fig/nesi_images/ga-vl01jupyterhubNeSI.png){width="500"}
+5. <p>Start a terminal session from the JupyterLab launcher<br>![Jupyter Launcher](fig/nesi_images/reannz_jupyter_launcher.png){width="500"}
 
 ::::::::::::::::::::::::::::::::::::::::: callout
 
