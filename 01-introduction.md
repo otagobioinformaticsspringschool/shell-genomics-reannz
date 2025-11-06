@@ -78,9 +78,11 @@ One of the differences between running on the REANNZ HPC or your own machine is 
 2. Log in with your institution credentials through Tuakiri
 
 <br>![Tuakiri login](fig/nesi_images/reannz_tuakiri.png){width="700px"}
+
 3. Select the Jupyter Lab launcher from the onDemand dashboard
    <br>![OnDemand Dashboard](fig/nesi_images/reannz_ondemand_dashboard.png){width="700px"}
-4. <p> Choose server options as below
+
+4. Choose server options as below
    <br>make sure to choose the correct project code `nesi02659`, number of CPUs **4**, memory **4GB** prior to pressing the Start button.
 
 <br>![OnDemand Jupyter Session specs](fig/nesi_images/reannz_jupyter_spec.png){width="700"}
