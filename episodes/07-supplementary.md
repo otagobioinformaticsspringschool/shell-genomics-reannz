@@ -4,7 +4,13 @@ teaching: 0
 exercises: 0
 ---
 
+## Otago Bioinformatics Spring School Directory Structure
+
+This shows the directory structure for the Otago Bioinformatics Spring School 2025
+
+
 ```bash
+# show directories for the first 3 levels
 tree -L 3 -d obss_2025
 ```
 
@@ -46,8 +52,12 @@ obss_2025/
 ```
 
 
+### Directories for Intro Bash
+
 ```bash
 cd ~/obss_2025/commandline
+
+# show files and directories of shell_data/
 tree shell_data
 ```
 
