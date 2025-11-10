@@ -22,7 +22,12 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**This lesson has been adapted from the original [Data Carpentry - Shell Genomics](https://datacarpentry.org/shell-genomics/) to be run using the the REANNZ HPC infrastructure as part of the Otago Bioinformatics Spring School instead of AWS.**
+:::::::::: callout
+
+**This lesson has been adapted from the original [Data Carpentry - Shell Genomics](https://datacarpentry.org/shell-genomics/) to be run using the REANNZ HPC infrastructure as part of the Otago Bioinformatics Spring School instead of AWS.**
+
+::::::::::
+
 
 ## What is a shell and why should I care?
 
