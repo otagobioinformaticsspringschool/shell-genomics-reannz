@@ -214,6 +214,19 @@ $ pwd
 /home/<username>
 ```
 
+:::::::::: prereq
+
+The data for this workshop is located on another area of the file system. To make it easier to use, run this command to create a shortcut to it in your home directory
+
+```bash
+ln -s /nesi/project/nesi02659/obss_2025/users/${USER} ~/obss_2025
+```
+
+`ln` is the link command, `-s` says to make the link symbolic (a shortcut). The first path is where the data we want to point to is, the second is where and the name we want to give to the shortcut. The `${USER}` part tells bash to substitute the name of your user at that place.
+
+::::::::
+
+
 Let's look at how our file system is organized. We can see what files and subdirectories are in this directory by running `ls`,
 which stands for "listing":
 
