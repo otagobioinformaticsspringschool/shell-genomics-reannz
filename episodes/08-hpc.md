@@ -8,15 +8,17 @@ exercises: 0
 
 **Originally from https://genomicsaotearoa.github.io/metagenomics_summer_school/day1/ex2_1_intro_to_scheduler/**
 
-<center>![image](../images/scaling.png){width="300"}</center>
+<center>![image](https://otagobioinformaticsspringschool.github.io/snakemake_workshop/workshop_material/images/scaling.png){width="300"}</center>
 
 ### Defining high-performance computing
 
 The simplest way of defining high-performance computing is by saying that it is the using of high-performance computers (HPC). However, this leads to our next question what is a HPC .
 
-!!! circle-info "HPC"
+::::::::::::: tip "HPC"
 
     A high-performance computer is a network of computers in a cluster that typically share a common purpose and are used to accomplish tasks that might otherwise be too big for any one computer.
+
+:::::::::::::
 
 <br>
 <p>While modern computers can do a lot (and a lot more than their equivalents 10-20 years ago), there are limits to what they can do and the speed at which they are able to do this. One way to overcome these limits is to pool computers together to create a cluster of computers. These pooled resources can then be used to run software that requires more total memory, or need more processors to complete in a reasonable time.</p>
@@ -28,12 +30,13 @@ The simplest way of defining high-performance computing is by saying that it is 
 <p>Most HPC systems follow the ideas described above of taking many computers and linking them via network switches.  described above is:</p>
 <br>
 
-!!! info "What distinguishes a high-performance computer from the computer clusters"
+:::::::::::: tip "What distinguishes a high-performance computer from the computer clusters"
 
     * The number of computers/nodes
     * The strength of each individual computer/node
     * The network interconnect – this dictates the communication speed between nodes. The faster this speed is, the more a group of individual nodes will act like a unit.
 
+::::::::::::
 
 ### NeSI Mahuika Cluster architecture
 
@@ -48,7 +51,7 @@ NeSI Mahuika cluster (CRAY HPE CS400) system consists of a number of different n
     === "Overview of HPC Architecture"
 
         <br>
-        ![image](../images/hpc_arch_new_fixalignment.png){width="700"}
+        ![image](https://otagobioinformaticsspringschool.github.io/snakemake_workshop/workshop_material/images/hpc_arch_new_fixalignment.png){width="700"}
         <br>
 
     === "Composition of a node"
