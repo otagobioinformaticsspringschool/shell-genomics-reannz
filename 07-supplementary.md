@@ -72,3 +72,7 @@ shell_data/
 2 directories, 3 files
 
 ```
+
+## REANNZ HPC and scheduling
+
+Please refer to [https://otagobioinformaticsspringschool.github.io/intro-hpc/](https://otagobioinformaticsspringschool.github.io/intro-hpc/)
