@@ -11,12 +11,12 @@ This shows the directory structure for the Otago Bioinformatics Spring School 20
 
 ```bash
 # show directories for the first 3 levels
-tree -L 3 -d obss_2025
+tree -L 3 -d obss_2026
 ```
 
 
 ```output
-obss_2025/
+obss_2026/
 ├── commandline
 │   ├── shell4b_data
 │   └── shell_data
@@ -55,7 +55,7 @@ obss_2025/
 ### Directories for Intro Bash
 
 ```bash
-cd ~/obss_2025/commandline
+cd ~/obss_2026/commandline
 
 # show files and directories of shell_data/
 tree shell_data
