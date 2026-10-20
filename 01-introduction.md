@@ -224,7 +224,7 @@ $ pwd
 The data for this workshop is located on another area of the file system. To make it easier to use, run this command to create a shortcut to it in your home directory
 
 ```bash
-ln -s /nesi/project/nesi02659/obss_2025/users/${USER} ~/obss_2025
+ln -s /nesi/project/nesi02659/obss_2026/users/${USER} ~/obss_2026
 ```
 
 `ln` is the link command, `-s` says to make the link symbolic (a shortcut). The first path is where the data we want to point to is, the second is where and the name we want to give to the shortcut. The `${USER}` part tells bash to substitute the name of your user at that place.
@@ -240,7 +240,7 @@ $ ls
 ```
 
 ```output
-obss_2025
+obss_2026
 ```
 
 `ls` prints the names of the files and directories in the current directory in
@@ -252,11 +252,11 @@ The command to change locations in our file system is `cd`, followed by a
 directory name to change our working directory.
 `cd` stands for "change directory".
 
-Let's say we want to navigate to the `obss_2025/commandline/shell_data` directory we saw above. We can
+Let's say we want to navigate to the `obss_2026/commandline/shell_data` directory we saw above. We can
 use the following command to get there:
 
 ```bash
-$ cd obss_2025
+$ cd obss_2026
 ```
 
 Let's look at what is in this directory:
@@ -394,7 +394,7 @@ $ cd
 then enter:
 
 ```bash
-$ cd obss_2025/com<tab>/she<tab>_<tab>
+$ cd obss_2026/com<tab>/she<tab>_<tab>
 ```
 
 The shell will fill in the rest of the directory name for `commandline` and then `shell_data`.
