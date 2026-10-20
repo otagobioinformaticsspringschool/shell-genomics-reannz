@@ -346,7 +346,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Introducing the Shell</h1>
-        <p>Last updated on 2025-11-10 |
+        <p>Last updated on 2026-10-20 |
 
         <a href="https://github.com/otagobioinformaticsspringschool/shell-genomics-reannz/edit/main/episodes/01-introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -627,7 +627,7 @@ to it in your home directory</p>
 <div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1" aria-label="code-block-6-1"></a><span class="fu">ln</span> <span class="at">-s</span> /nesi/project/nesi02659/obss_2025/users/<span class="va">${USER}</span> ~/obss_2025</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1" aria-label="code-block-6-1"></a><span class="fu">ln</span> <span class="at">-s</span> /nesi/project/nesi02659/obss_2026/users/<span class="va">${USER}</span> ~/obss_2026</span></code></pre>
 </div>
 <p><code>ln</code> is the link command, <code>-s</code> says to make the
 link symbolic (a shortcut). The first path is where the data we want to
@@ -648,7 +648,7 @@ which stands for “listing”:</p>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span><span class="va">obss_2025</span></span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="va">obss_2026</span></span></code></pre>
 </div>
 <p><code>ls</code> prints the names of the files and directories in the
 current directory in alphabetical order, arranged neatly into columns.
@@ -658,12 +658,12 @@ creating new subdirectories, throughout this workshop.</p>
 <code>cd</code>, followed by a directory name to change our working
 directory. <code>cd</code> stands for “change directory”.</p>
 <p>Let’s say we want to navigate to the
-<code>obss_2025/commandline/shell_data</code> directory we saw above. We
+<code>obss_2026/commandline/shell_data</code> directory we saw above. We
 can use the following command to get there:</p>
 <div class="codewrapper sourceCode" id="cb9">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1" aria-label="code-block-9-1"></a><span class="ex">$</span> cd obss_2025</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1" aria-label="code-block-9-1"></a><span class="ex">$</span> cd obss_2026</span></code></pre>
 </div>
 <p>Let’s look at what is in this directory:</p>
 <div class="codewrapper sourceCode" id="cb10">
@@ -760,7 +760,7 @@ don’t see with the bare <code>ls</code> command?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb21">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -818,7 +818,7 @@ of the directory or file name.</p>
 <div class="codewrapper sourceCode" id="cb26">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" tabindex="-1" aria-label="code-block-26-1"></a><span class="ex">$</span> cd obss_2025/com<span class="op">&lt;</span>tab<span class="op">&gt;</span>/she<span class="op">&lt;</span>tab<span class="op">&gt;</span>_<span class="op">&lt;</span>tab<span class="op">&gt;</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" tabindex="-1" aria-label="code-block-26-1"></a><span class="ex">$</span> cd obss_2026/com<span class="op">&lt;</span>tab<span class="op">&gt;</span>/she<span class="op">&lt;</span>tab<span class="op">&gt;</span>_<span class="op">&lt;</span>tab<span class="op">&gt;</span></span></code></pre>
 </div>
 <p>The shell will fill in the rest of the directory name for
 <code>commandline</code> and then <code>shell_data</code>.</p>
@@ -957,7 +957,7 @@ efficient in the shell.</li>
   "url": "https://otagobioinformaticsspringschool.github.io/shell-genomics-reannz/instructor/01-introduction.html",
   "identifier": "https://otagobioinformaticsspringschool.github.io/shell-genomics-reannz/instructor/01-introduction.html",
   "dateCreated": "2015-03-24",
-  "dateModified": "2025-11-10",
+  "dateModified": "2026-10-20",
   "datePublished": "2026-10-20"
 }
 
